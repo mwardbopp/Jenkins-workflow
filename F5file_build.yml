@@ -1,5 +1,5 @@
 - name: Create a node, pool and VIP and take the node out of circulation
-#//  hosts: "{{ hosts }}"
+  hosts: "{{ hosts }}"
   connection: local
 
   tasks:
